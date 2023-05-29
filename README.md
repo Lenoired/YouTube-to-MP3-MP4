@@ -13,8 +13,8 @@ git clone https://github.com/Lenoired/YouTube-to-MP3-MP4.git youtube-to-mp3 && c
 
 | Library | Recommended |
 |---------|-------------|
-|Python   |>=3.11         |
-|Requests |>=2.30.0       |
+|Python   |>=3.11       |
+|Requests |>=2.30.0     |
 
 ## Examples
 
