@@ -1,5 +1,7 @@
 # YouTube-to-MP3-MP4
 Python script for converting YouTube videos to .mp3 or .mp4. You can also search videos and download them.
+</br></br>
+**NOTE:** Default download path is "./", it is optional to edit it by modifying the variable "location" inside the script.
 
 ## Installation ##
 
