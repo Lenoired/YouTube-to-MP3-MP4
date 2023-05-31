@@ -32,7 +32,7 @@ try:
     print("Converting video, please wait...")
 except KeyboardInterrupt: exit()
 except ValueError: exit(f"{red}ERROR:{reset} Wrong format")
-except IndexError: exit("{red}ERROR:{reset} Wrong usage")
+except IndexError: exit(f"{red}ERROR:{reset} Wrong usage")
 
 # Parse response data
 title, size, res = r.json()['title'].replace('/','_').replace('"','_').replace("'","_").replace('\\','_'), r.json()['links'][method][str(list(r.json()['links'][method].keys())[0])]['size'], hand.post(main_url.replace('analyze','convert') + "index", data={"vid": r.json()['vid'], "k": r.json()['links'][method][list(r.json()['links'][method].keys())[0]]['k']})
